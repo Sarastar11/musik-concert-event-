@@ -1,0 +1,735 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url(../images/1st.bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 964px;
+}
+
+/* font-family: "Raleway", sans-serif; */
+#firstcontent {
+    width: 100%;
+    margin: auto;
+    padding-top: 45px;
+
+}
+
+/* navbar start  */
+
+.nav-container {
+    width: 100%;
+    background-color: transparent;
+    display: none;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-items li {
+    color: white;
+}
+
+.nav-items li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#navbarWithDropdown {
+    margin-left: 150px;
+}
+
+.image-container {
+    position: relative;
+    padding-left: 100px;
+}
+
+.image-container img {
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+    background-color: blue;
+}
+#navbtn{
+    color: rgba(56, 29, 219, 1);
+    height: 56px;
+    width: 175px !important;
+}
+
+/* end navbar 
+ */
+/* start the first slide */
+.span {
+    color: rgb(206, 138, 138);
+}
+
+
+/* The Best experience of music in 2021 */
+.thefirst>h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: auto;
+    margin-top: 170px;
+width: 970px;
+}
+
+.para1>p {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}
+
+#btn2 {
+    text-align: center;
+}
+
+/* timer counter style  */
+#demo {
+    text-align: center;
+    font-size: 144px;
+    margin-top: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
+    height: 176px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0.5px;
+    font-weight: 700;
+    line-height: 175.54px;
+margin-bottom: 150px;
+width: 1447px;
+}
+
+/* end timer  */
+
+/* end first slide  */
+
+/* start second slide  */
+h2 {
+    /* Explore By Category */
+    padding-left: 250px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#c1,
+#c2,
+#c3,
+#c4,
+#c5 {
+    border-radius: 24px;
+    border: transparent;
+    padding-left: 25px;
+    text-align: left;
+    height: 326px;
+}
+
+#c1 {
+    background-color: rgba(219, 132, 29, .1);
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#c2 {
+    background: rgba(252, 82, 82, .1);
+
+}
+
+#c3 {
+    background-color: rgba(56, 29, 219, 1);
+
+
+}
+
+#c4 {
+    background-color: rgba(192, 0, 150, .1);
+
+
+}
+
+#c5 {
+    background-color: rgba(132, 196, 255, .1);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* end slide two  */
+/* start slide three */
+.thirdcontainer {
+    padding-top: 200px;
+    padding-left: 20%;
+}
+
+#overlay {
+    border: none;
+}
+
+#firstoverlay {
+    width: 65%;
+}
+
+.card-img-overlay img {
+    width: 70%;
+    margin: 10%;
+    margin-right: 0%;
+}
+
+#musik {
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+#music {
+    font-family: "Raleway", sans-serif;
+    width: 80%;
+    padding-top: 20px;
+}
+
+#musikBtn {
+    background-color: #381DDB;
+    color: white;
+    margin-top: 20px;
+}
+
+#confetti3 {
+    width: 10%;
+    padding-left: 0px;
+}
+
+/* end third slide  */
+
+/* start fourth slide  */
+.forthcontent {
+    padding-top: 100px;
+}
+
+#fourth {
+    padding-top: 150px;
+    padding-left: 15%;
+}
+
+#gallpara {
+    font-family: "Raleway", sans-serif;
+}
+
+#btngall {
+    width: 230px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #381DDB;
+    color: white;
+    margin-top: 50px;
+}
+
+#gallery {
+    width: 105%;
+}
+
+#confetti4 {
+    width: 10%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#confetti5 {
+    width: 10%;
+    margin-top: 50px;
+}
+
+/* end fourthslide  */
+
+/* start fifth slide  */
+.fifthslide {
+    background: linear-gradient(180deg, rgba(56, 29, 219, 0.05) 0%, rgba(56, 29, 219, 0) 100%);
+    margin-top: 150px;
+}
+
+.confetti9 {
+    width: 10%;
+    margin-top: 70px;
+}
+
+.confetti7,
+.confetti8 {
+    width: 10%;
+    padding-top: 400px;
+}
+
+.confetti6 {
+    width: 10%;
+    padding-top: 170px;
+}
+
+.table {
+    font-family: "Raleway", sans-serif;
+    border-radius: 24px;
+}
+
+th {
+    background: rgba(56, 29, 219, .1) !important;
+    font-family: "Raleway", sans-serif;
+    height: 120px;
+    align-content: space-around;
+}
+
+td {
+    font-family: "Raleway", sans-serif;
+    width: 30%;
+    font-size: 80%;
+}
+
+#tacard {
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgba(244, 241, 244, 0.1);
+    border: none;
+}
+
+/* end fifth slide  */
+
+/* start sixth slide  */
+.sixthslide {
+    margin-top: 200px !important;
+}
+
+#pricing {
+    justify-content: center;
+    gap: 20px;
+    width: 85%;
+    margin-left: 10%;
+}
+
+/* Cards */
+.first,
+.second,
+.third {
+    box-shadow: 0px 20px 100px 0px rgba(34, 34, 34, 0.15);
+    width: 270px;
+    background-color: white;
+    border-radius: 24px !important;
+    border: none !important;
+}
+.third .card-body>button{
+     border: 1px solid rgba(56, 29, 219, 1);
+     color:rgba(56, 29, 219, 1) ;
+}
+.first {
+    border-top: 4px solid #000000 !important;
+}
+.first .card-body>button{
+    border: 1px solid rgba(56, 29, 219, 1);
+    color:rgba(56, 29, 219, 1) ;
+}
+
+.second {
+
+    border-top: 3px solid rgba(56, 29, 219, 1) !important;
+}
+#secondh{
+    color: rgba(56, 29, 219, 1);
+    
+}
+#secondbtn{
+    background-color: rgba(56, 29, 219, 1);
+    color: white;
+}
+#secondp{
+    color: rgba(56, 29, 219, 1);
+    
+}
+.third {
+
+    border-top: 3px solid #e21818 !important;
+
+}
+
+/* confetti slide six  */
+.confetti10 {
+    width: 10%;
+    padding-top: 0px;
+}
+
+.confetti11 {
+    width: 10%;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+/* end sixth slide  */
+
+/* start seventh slide  */
+.sponsers{
+justify-content: space-between;
+width: 70%;
+margin-left: 15%;
+}
+.sponsers>img{
+    border: none;
+    padding-top: 40px;
+    width: 165px;
+    height: 20%;
+}
+#seventhbut{
+    background-color: rgba(56, 29, 219, 1);
+    color: white;
+   width: 225px;
+    height: 56px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* confetti12 */
+.confetti12{
+    padding-top: 300px;
+    width: 15%;
+}
+.confetti13{
+padding-top: 320px;
+width: 6%;
+}
+/* end 7th slide  */
+
+/* start 8th slide  */
+.theEighth{
+    margin-top: 200px;
+}
+.testimonials .card{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    width: 770px;
+    transition: transform .2s;
+    opacity:30%;
+ 
+}
+#test2card{
+    opacity: 100%;
+    
+}
+
+/* zoom in  */
+#test2card:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    opacity:100%;
+}
+#leftcard{
+    overflow: hidden;
+    margin-left: -30%;
+}
+
+/* zoom in  */
+#leftcard:hover{
+    margin-left: 10%;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    opacity:100%;
+    margin-right: 10%;
+}
+#rightcard{    
+margin-right: -30%;
+}
+
+/* zoom in  */
+#rightcard:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    opacity:100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+
+.testimonials .card>img{
+width: 120px;
+}
+.testimonials .card>.card-header{
+ font-family: "Raleway", sans-serif; 
+
+}
+.testimonials .card>p{
+margin-top: 70px;
+
+}
+
+/* end 8th slide******************************************************************  */
+
+/* start 9th slide  */
+.the9th{
+    height: 250px;
+background-image:
+url(../images/instegram.png);
+background-repeat: no-repeat;
+opacity: 10%;
+background-position:  left 200px top 20px;
+}
+.ninth{
+  background-image: linear-gradient(180deg, rgba(252, 82, 82, 0.05) 0%, rgba(252, 82, 82, 0) 100%);
+margin-bottom: 150px;
+}
+.ninth>h2{
+    padding-top: 150px;
+    padding-left: 10%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.splide .container{
+    height: auto;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    padding: 10px;
+}
+/* end 9th .............................. */
+
+/* start 10th ............................ */
+.contactUs{
+background-color: rgba(56, 29, 219, 1);
+padding-left: 9%;
+padding-bottom: 200px;
+
+}
+.contactUs>h2{
+    padding-top: 15%;
+    padding-bottom: 0px;
+    padding-left: 9%;
+}
+.contactUs>p{
+opacity: 70%;
+font-family: "Raleway", sans-serif;
+font-size: 20px;
+font-weight: 400;
+padding-left: 9%;
+}
+.contactUs.data >h5{
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: 700 !important;
+    width: 50% !important;
+}
+.contactUs .data > img{
+height: 24px;
+}
+
+/* fooooooorm  */
+.form{
+    background-color: rgba(34, 34, 34, 0.03);
+    
+}
+.dataform{
+    padding: 10%;
+    padding-top:10px;
+}
+.form >h2{
+    padding-left: 10%;
+    padding-top: 15%;
+    font-weight: 800;
+    font-size: 24px;
+}
+.dataform > button{
+    height: 55px;
+    width: 100%;
+    background-color: rgba(56, 29, 219, 1);
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.dataform .dat>input{
+    
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #e5e5e5;
+      
+}
+.form-floating>textarea{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(56, 29, 219, 1);
+}
+/* end tenth slide ................................................................... */
+.footer>nav{
+padding-left: 20%;
+font-weight: 600;
+}
+/* *********************************************************************************
+    mobile version */
+@media only screen and (max-width: 600px) {
+    body {
+        height: 1500px;
+
+    }
+#firstcontent{
+    width: 70%;
+}
+#logo{
+padding-left: 0px;
+}
+#navbtn{
+    display: none;
+}
+    .thefirst>h1 {
+        font-size: 50px;
+        margin-top: 150px;
+    }
+
+    #demo {
+        font-size: 30px !important;
+        opacity: 100%;
+        text-align: start;
+        width: 300px;
+    }
+    .nav-items {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-items.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        text-align: start;
+    }
+.nav-container{
+    display: contents;
+}
+     #navbarWithDropdown {
+        text-align: center;
+        display: none;
+    }
+    
+    /* start second slide  */
+    #secondcontainer {
+        margin-top: 200px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    h2 {
+        text-align: left;
+        padding: 50px;
+    }
+
+    .card {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* start third slide  */
+    .thirdcontainer {
+        flex-direction: column;
+        padding: 40px;
+
+    }
+
+    #musik {
+        padding-top: 100px;
+    }
+
+    #music {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    #confetti3 {
+        padding-left: 0px;
+    }
+
+    /* end third slide  */
+
+    /* start fourth slide  */
+    .forthcontent {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    #gallery {
+        margin-top: 20px;
+    }
+
+    /* end fourth slide  */
+
+    /* start fifth slide  */
+    .fifthslide {
+        display: none;
+    }
+
+    /* start testimonials  */
+    .testimonials{
+        flex-direction: column;
+    }
+        .testimonials .card{
+            opacity:100%;
+            margin-left: 5%;
+            overflow: visible;
+            margin-bottom: 20px;
+    }
+    .testimonials{
+        overflow: visible;
+    }
+    #leftcard{
+        margin-left: 10px;
+    }
+    .testimonials .card{
+height: 700px !important;    
+}
+
+    /* carusel  */
+    .ninth{
+        height: 1000px;
+    }
+    .splide__slide{
+    height: 700px !important;
+}
+}

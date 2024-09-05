@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/final.projec.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
+    <link rel="shortcut icon" href="images/faveicone.png" type="image/x-icon">
+    <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
+    <title>Final Project</title>
+</head>
+
+<body>
+    <!-- first content  -->
+    <div id="firstcontent" class="container">
+
+        <!-- start navbar  -->
+        <nav class="navbar navbar-expand-xl navbar-light bg-transparent">
+
+            <!-- start logo  -->
+            <a class="navbar-brand image-container" id="logo" href="#"><img src="images/Logo.png" alt="logo"></a>
+            <!-- end logo  -->
+
+            <!-- responsive hamburger>>>>>>>>>>>>>  -->
+            <div class="nav-container">
+                <div class="hamburger">
+                    &#9776;
+                </div>
+                <ul class="nav-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact"> Speakers</a></li>
+                    <li><a href="#about"> Schedule</a></li>
+                    <li><a href="#contactus"> Contact Us</a></li>
+
+                </ul>
+            </div>
+            <!-- end> responsive>>>>>>>>>>>>>>>>>>>>>> -->
+
+            <!-- navbar  -->
+            <div class="container-fluid row" id="menutop">
+
+                <div class="collapse navbar-collapse show col-6 " id="navbarWithDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+
+
+                        <!-- dropdown 1  -->
+                        <li class="nav-item dropdown px-4">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Speakers
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!-- dropdown 2  -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink2"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Schedule
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- navbar button  -->
+
+                <button type="button" id="navbtn" class="btn bg-light fw-bold px-5 col" data-bs-toggle="button"
+                    autocomplete="off">GET TICKETS</button>
+
+            </div>
+
+        </nav>
+        <!--  end navbar ....................................> -->
+
+
+        <!-- first title  -->
+        <div class="row thefirst text-light">
+            <h1>The Best experience of <br><span class="span">Music</span> in 2021</h1>
+            <div class="para1 fs-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula
+                    <br>placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.
+                </p>
+            </div>
+            <div id="btn2" class="mt-3"><button type="button" class="btn btn-danger btn-lg">Get Started</button>
+                <button type="button" class="bg-transparent border-0"><img src="images/Video.png" alt=""></button>
+            </div>
+
+        </div>
+        <!-- Time Counter -->
+        <p id="demo"></p>
+    </div>
+
+    <!-- end of the first slide  -->
+
+    <!-- start second slide ...................................................................................... -->
+    <div id="secondcontainer">
+        <h2 class="fw-bold"><span class="text-primary">Explore</span> By Category</h2>
+        <div class="row mb-5 card-container">
+            <div class="col position-relative p-3">
+                <div class="card" id="c1">
+                    <img src="images/Confetti1.png"
+                        class="confetti1 img-thumbnail bg-transparent position-absolute top-0 start-50 translate-middle w-25 border-0"
+                        alt="image confettil">
+                    <div class="card-body">
+                        <img src="images/icons/Dj Mixer.png" alt="mixer" id="img1">
+                        <h5 class="card-title fw-bold">Pop</h5>
+                        <p class="card-text pt-3 pb-3 text-secondary">Duis nec sodales nibh. Proin lectus tortor, rutrum
+                            vel vulputate
+                            vitae</p>
+                    </div>
+                    <img src="images/Frame 1.png"
+                        class="confetti1 img-thumbnail bg-transparent position-absolute top-100 start-50 translate-middle w-25 border-0"
+                        alt="image confettil">
+                </div>
+            </div>
+            <div class="col position-relative p-3">
+                <div class="card" id="c2">
+                    <div class="card-body">
+                        <img src="images/icons/Bagpipes.png" alt="inst2" id="img2">
+                        <h5 class="card-title fw-bold">Folk</h5>
+                        <p class="card-text pt-3 pb-3 text-secondary">Duis nec sodales nibh. Proin lectus tortor, rutrum
+                            vel vulputate
+                            vitae</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col position-relative p-3">
+                <div class="card" id="c3">
+                    <div class="card-body">
+                        <img src="images/icons/Saxophone.png" alt="inst3" id="img3">
+                        <h5 class="card-title fw-bold text-light">Instrumental</h5>
+                        <p class="card-text pt-3 pb-3 text-light">Duis nec sodales nibh. Proin lectus tortor, rutrum vel
+                            vulputate
+                            vitae</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col position-relative p-3">
+                <div class="card" id="c4">
+                    <div class="card-body">
+                        <img src="images/icons/Guitar.png" alt="inst4" id="img4">
+                        <h5 class="card-title fw-bold">Rock</h5>
+                        <p class="card-text pt-3 pb-3 text-secondary">Duis nec sodales nibh. Proin lectus tortor, rutrum
+                            vel vulputate
+                            vitae</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col position-relative p-3">
+                <div class="card" id="c5">
+                    <img src="images/Confetti.png" alt="confetti2"
+                        class="position-absolute top-0 start-50 translate-middle-x">
+                    <div class="card-body">
+                        <img src="images/icons/Trumpet.png" alt="inst5" id="img5">
+                        <h5 class="card-title fw-bold">Jazz</h5>
+                        <p class="card-text pt-3 pb-3 text-secondary">Duis nec sodales nibh. Proin lectus tortor, rutrum
+                            vel vulputate
+                            vitae</p>
+
+                    </div>
+                </div>
+                <img src="images/Confetti2.png" alt="" class="position-absolute bottom-0 end-0 mx-3">
+            </div>
+        </div>
+    </div>
+    <!-- end slide two  -->
+
+    <!-- start slide three .................................................................................... -->
+
+    <div class=" row thirdcontainer">
+        <div class="col" id="text">
+            <div class="card" id="overlay">
+                <img src="images/Img (2).png" class="card-img" alt="card-img-overlay" id="firstoverlay">
+                <div class="card-img-overlay">
+                    <img src="images/Img.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col" id="musik">
+            <h3 class="fw-bold">About Musik</h3>
+            <p id="music">Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales,
+                tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut
+                lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa
+                mattis iaculis. In quis massa risus</p>
+            <button type="button" class="btn btn-lg fw-bold fs-6" id="musikBtn">Learn More <img src="images/Vector.png"
+                    alt="icon"></button>
+        </div>
+    </div>
+    <div><img src="images/Confetti3.png" alt="confetti3" id="confetti3">
+    </div>
+    <!-- end third slide ........................................................................................  -->
+
+    <!-- start fourth slide   -->
+    <div class="forthcontent row">
+        <div class="content col" id="fourth">
+            <h3 class="fw-bold">Singers</h3>
+            <p class="pt-4" id="gallpara">Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit
+                sodales, tincidunt nunc
+                non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque
+                suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis.
+                In quis massa risus
+            </p>
+            <button type="button" class="btn fw-bold" id="btngall">View All Singers <img src="images/Vector.png"
+                    alt="vector"></button>
+        </div>
+        <div class="gallery col">
+            <!-- <img src="images/im.png" alt="Im1" id="im1">
+            <img src="images/im2.png" alt="Im2" id="im2">
+            <img src="images/Img (3).png" alt="Im3" id="im3">
+            <img src="images/Img (4).png" alt="Im4" id="im4"> -->
+            <img src="images/Images.png" alt="gallery" id="gallery">
+        </div>
+    </div>
+    <!-- confetti slide4  -->
+    <div>
+        <img src="images/Confetti4.png" alt="confetti4" id="confetti4">
+    </div>
+    <div class="position-relative">
+        <img src="images/Confetti5.png" alt="Confetti5" id="confetti5" class="position-absolute top-0 end-0">
+    </div>
+    <!-- end fourth slide  -->
+
+    <!-- start fifth slide ............................................ ........................................-->
+    <div class="fifthslide position-relative">
+        <h2 class="fw-bold" id="scdul">Event Schedule</h2>
+
+        <!-- confetti of slide 5 -->
+        <div class="confetti6 position-absolute top-50 start-0 translate-middle-y h-25"><img src="images/Confetti6.png"
+                alt="confetti6"></div>
+        <div class="confetti7 position-absolute top-50 end-0 translate-middle-y h-25"><img src="images/Confetti7.png"
+                alt="confetti7"></div>
+        <div class="confetti8 position-absolute top-50 end-0 translate-middle h-25"><img src="images/Confetti8.png"
+                alt="confetti8"></div>
+
+        <!-- end confetti of slide 5 -->
+
+        <!-- start navbar navigation  -->
+        <div class="card" id="tacard">
+            <div class="card-header bg-transparent">
+                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active bg-transparent border-0" id="day1-tab" data-bs-toggle="tab"
+                            href="#day1" role="tab" aria-controls="day1" aria-selected="true">
+                            <h5 class="fw-bold text-primary ps-5">Day 01</h5>
+                            <p class="fs-6 text-primary ps-5">16 August</p>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link bg-transparent border-0" id="day2-tab" data-bs-toggle="tab" href="#day2"
+                            role="tab" aria-controls="day2" aria-selected="false">
+                            <h5 class="fw-bold text-secondary ps-5">Day 02</h5>
+                            <p class="fs-6 text-secondary ps-5">17 August</p>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link bg-transparent border-0" id="day3-tab" data-bs-toggle="tab" href="#day3"
+                            role="tab" aria-controls="day3" aria-selected="false">
+                            <h5 class="fw-bold text-secondary ps-5">Day 03</h5>
+                            <p class="fs-6 text-secondary ps-5">18 August</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div class="tab-content" id="myTabContent">
+                    <!-- day1 start  -->
+                    <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+
+                        <!-- table start 1st day -->
+                        <div class="card rounded-3 bg-transparent">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="p-4">Time</th>
+                                        <th scope="col">Content</th>
+                                        <th scope="col">Speakers</th>
+                                        <th scope="col"> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary pt-5" scope="row">11:00 AM to 12:00 PM
+                                        </td>
+                                        <td class="bg-transparent pt-5 fw-bold">Vestibulum vel eros vel metus lacinia
+                                            feugiat
+                                            a nec
+                                            metus. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar.png" alt="Avatar" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Yui Ronald <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">2F12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="bg-transparent p-5 fw-bold align-content-around">Preview<img
+                                                src="images/Play.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary p-3 pt-5" scope="row">12:00 PM to 03:00
+                                            PM</td>
+                                        <td class="bg-transparent p-3 pt-5 fw-bold">Duis nec sodales nibh. Proin lectus
+                                            tortor,
+                                            rutrum
+                                            vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec
+                                            pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor.
+                                            Donec
+                                            eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec
+                                            cursus ex. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar2.png" alt="Avatar2" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Bob John <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">3G12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar3.png" alt="Avatar3" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Yui Ronald <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">
+                                                                2F12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar4.png" alt="Avatar4" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Emma Satoshi <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">2A35</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="bg-transparent p-5 text-danger fw-bold align-content-around">Live<img
+                                                src="images/Live Camera.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary p-3 pt-5" scope="row">03:00 PM to 04:00
+                                            PM</td>
+                                        <td class="bg-transparent p-3 pt-5 fw-bold">Vestibulum vel eros vel metus
+                                            lacinia feugiat a nec metus. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-raw p-3 gap-3">
+                                                <img src="images/Avatar5.png" alt="Avatar5" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold">Sasha Jackson <br>
+                                                        <span class="fw-normal text-secondary">Booth:<span
+                                                                class="fw-bold">2F18</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-raw p-3 gap-3">
+                                                <img src="images/Avatar6.png" alt="Avatar6" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Diana Brock <br>
+                                                        <span class="fw-normal text-secondary">Booth: <span
+                                                                class="fw-bold">2F24</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="bg-transparent p-5 fw-bold align-content-around d-flex flex-row">
+                                            Upcoming<img src="images/Clock.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- End day 1 table  -->
+
+                    <!-- srart day 2 table  -->
+                    <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+
+                        <!-- table start 2st day -->
+                        <div class="card rounded-3 bg-info">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="p-4">Time</th>
+                                        <th scope="col">Content</th>
+                                        <th scope="col">Speakers</th>
+                                        <th scope="col"> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary pt-5" scope="row">11:00 AM to 12:00 PM
+                                        </td>
+                                        <td class="bg-transparent pt-5 fw-bold">Vestibulum vel eros vel metus lacinia
+                                            feugiat
+                                            a nec
+                                            metus. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar.png" alt="Avatar" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Yui Ronald <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">2F12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="bg-transparent p-5 fw-bold align-content-around">Preview<img
+                                                src="images/Play.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary p-3 pt-5" scope="row">12:00 PM to 03:00
+                                            PM</td>
+                                        <td class="bg-transparent p-3 pt-5 fw-bold">Duis nec sodales nibh. Proin lectus
+                                            tortor,
+                                            rutrum
+                                            vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec
+                                            pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor.
+                                            Donec
+                                            eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec
+                                            cursus ex. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar2.png" alt="Avatar2" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Bob John <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">3G12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar3.png" alt="Avatar3" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Yui Ronald <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">
+                                                                2F12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar4.png" alt="Avatar4" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Emma Satoshi <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">2A35</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="bg-transparent p-5 text-danger fw-bold align-content-around">Live<img
+                                                src="images/Live Camera.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary p-3 pt-5" scope="row">03:00 PM to 04:00
+                                            PM</td>
+                                        <td class="bg-transparent p-3 pt-5 fw-bold">Vestibulum vel eros vel metus
+                                            lacinia feugiat a nec metus. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-raw p-3 gap-3">
+                                                <img src="images/Avatar5.png" alt="Avatar5" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold">Sasha Jackson <br>
+                                                        <span class="fw-normal text-secondary">Booth:<span
+                                                                class="fw-bold">2F18</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-raw p-3 gap-3">
+                                                <img src="images/Avatar6.png" alt="Avatar6" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Diana Brock <br>
+                                                        <span class="fw-normal text-secondary">Booth: <span
+                                                                class="fw-bold">2F24</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="bg-transparent p-5 fw-bold align-content-around d-flex flex-row">
+                                            Upcoming<img src="images/Clock.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- End day 2 table  -->
+
+                    <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="day3-tab">
+
+                        <!-- table start 3rd day -->
+                        <div class="card rounded-3 bg-warning">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="p-4">Time</th>
+                                        <th scope="col">Content</th>
+                                        <th scope="col">Speakers</th>
+                                        <th scope="col"> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary pt-5" scope="row">11:00 AM to 12:00 PM
+                                        </td>
+                                        <td class="bg-transparent pt-5 fw-bold">Vestibulum vel eros vel metus lacinia
+                                            feugiat
+                                            a nec
+                                            metus. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar.png" alt="Avatar" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Yui Ronald <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">2F12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="bg-transparent p-5 fw-bold align-content-around">Preview<img
+                                                src="images/Play.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary p-3 pt-5" scope="row">12:00 PM to 03:00
+                                            PM</td>
+                                        <td class="bg-transparent p-3 pt-5 fw-bold">Duis nec sodales nibh. Proin lectus
+                                            tortor,
+                                            rutrum
+                                            vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec
+                                            pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor.
+                                            Donec
+                                            eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec
+                                            cursus ex. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar2.png" alt="Avatar2" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Bob John <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">3G12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar3.png" alt="Avatar3" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Yui Ronald <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">
+                                                                2F12</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row p-3 gap-3">
+                                                <img src="images/Avatar4.png" alt="Avatar4" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Emma Satoshi <br>
+                                                        <span class="text-secondary fw-normal">Booth: <span
+                                                                class="fw-bold">2A35</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="bg-transparent p-5 text-danger fw-bold align-content-around">Live<img
+                                                src="images/Live Camera.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-secondary p-3 pt-5" scope="row">03:00 PM to 04:00
+                                            PM</td>
+                                        <td class="bg-transparent p-3 pt-5 fw-bold">Vestibulum vel eros vel metus
+                                            lacinia feugiat a nec metus. </td>
+                                        <td class="bg-transparent pt-5">
+                                            <div class="d-flex flex-raw p-3 gap-3">
+                                                <img src="images/Avatar5.png" alt="Avatar5" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold">Sasha Jackson <br>
+                                                        <span class="fw-normal text-secondary">Booth:<span
+                                                                class="fw-bold">2F18</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-raw p-3 gap-3">
+                                                <img src="images/Avatar6.png" alt="Avatar6" class="h-50 fl">
+                                                <div class="d-flex flex-column">
+                                                    <p class="fw-bold"> Diana Brock <br>
+                                                        <span class="fw-normal text-secondary">Booth: <span
+                                                                class="fw-bold">2F24</span></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="bg-transparent p-5 fw-bold align-content-around d-flex flex-row">
+                                            Upcoming<img src="images/Clock.png" alt="icon" class="p-1"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- End day 3 table  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end fifthslide  -->
+
+    <!-- confetti 9  -->
+    <div class="position-relative pb-5">
+        <div class="confetti9 position-absolute top-0 end-0 h-25"><img src="images/Confetti9.png" alt="confetti9">
+        </div>
+    </div>
+
+
+    <!-- start sixth slide .................................................................... ......-->
+    <div class="sixthslide row text-center">
+
+        <!-- title slide six  -->
+        <h3 class="fw-bold p-5">Choose a Tier that's right for you</h3>
+
+        <!-- confetti slide six  -->
+        <div class="position-relative">
+            <div class="confetti10 position-absolute top-0 start-0"><img src="images/Confetti10.png" alt="confetti10">
+            </div>
+            <div class="confetti11 position-absolute top-50 start-0 translate-middle"><img src="images/Confetti11.png"
+                    alt="confetti11"></div>
+        </div>
+        <!-- end confetti slide 6  -->
+
+        <!-- cards  -->
+        <div class="row row-cols-1 row-cols-sm-2 g-3 text-center" id="pricing">
+
+            <!-- start card 1  -->
+            <div class="col col-md-3 position-relative d-flex card first">
+                <div class="card-body">
+                    <h5 class="card-title p-1 fw-bold">Basic</h5>
+                    <p class="card-text p-1 fs-1 fw-bold">$100</p>
+                    <p class="text-secondary">1 Seat Available</p>
+                    <p class="text-secondary fw-light">Access to Wifi Router</p>
+                    <p class="text-secondary fw-light">Free Food & Coffee</p>
+                    <button type="button" class="btn fw-bold p-3 px-4 mt-3">Get Tickets</button>
+                </div>
+            </div>
+            <!-- start card 2  -->
+            <div class="col col-md-3 position-relative d-flex card second">
+                <div class="card-body">
+                    <h5 class="card-title p-1 fw-bold" id="secondh">Standard</h5>
+                    <p class="card-text p-1 fs-1 fw-bold" id="secondp">$150</p>
+                    <p class="text-secondary">1 Seat Available</p>
+                    <p class="text-secondary fw-light">Access to Wifi Router</p>
+                    <p class="text-secondary fw-light">Free Food & Coffee</p>
+                    <button type="button" class="btn fw-bold p-3 px-4 mt-3" id="secondbtn">Get Tickets</button>
+                </div>
+            </div>
+            <!-- start card 3  -->
+            <div class="col col-md-3 position-relative d-flex card third">
+                <div class="card-body">
+                    <h5 class="card-title p-1 fw-bold text-danger">Premium</h5>
+                    <p class="card-text p-1 fs-1 fw-bold text-danger">$200</p>
+                    <p class="text-secondary">1 Seat Available</p>
+                    <p class="text-secondary fw-light">Access to Wifi Router</p>
+                    <p class="text-secondary fw-light">Free Food & Coffee</p>
+                    <button type="button" class="btn fw-bold p-3 px-4 mt-3">Get Tickets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end sixth slide ............................................................................ -->
+
+    <!-- start seventh slide ............................................. -->
+    <div class="container-fluid text-center" id="seventhslide">
+        <!-- title 7th slide  -->
+        <h2 class="fw-bold text-center ps-0">Our Sponsors</h2>
+
+        <!-- confetti 7th slide  -->
+        <div class="position-relative">
+
+            <img src="images/confetti12.png" alt="confetti12"
+                class="position-absolute top-50 start-0 translate-middle-y confetti12">
+
+
+            <img src="images/Confetti13.png" alt="Confetti13"
+                class="position-absolute top-50 end-0 translate-middle-y confetti13">
+
+        </div>
+        <!-- end confetti the 7th -->
+
+        <!-- Sponsors images  -->
+        <div class="sponsers d-flex flex-wrap p-4 gap-4">
+            <img class="card" src="images/spos1.png" alt="spos1">
+            <img class="card" src="images/spons2.png" alt="spons2">
+            <img class="card" src="images/spons3.png" alt="spons3">
+            <img class="card" src="images/spons4.png" alt="spons4">
+        </div>
+        <div class="sponsers d-flex flex-wrap p-4 gap-4">
+
+            <img class="card" src="images/spons5.png" alt="spons5">
+            <img class="card" src="images/spons6.png" alt="spons6">
+            <img class="card" src="images/spons7.png" alt="spons7">
+            <img class="card" src="images/spons8.png" alt="spons8">
+        </div>
+        <!-- end Sponsors  -->
+
+        <!-- button  -->
+        <button type="button" class="btn fw-bold" id="seventhbut">Become a Sponsor</button>
+    </div>
+    <!-- end seventh slide .......................................................................... -->
+
+    <!-- start 8th slide  -->
+    <div class="container-fluid theEighth">
+        <h2 class="fw-bold text-center p-5">Testimonials</h2>
+
+        <!-- testimonials  -->
+        <div class="testimonials row gap-3 d-flex flex-wrap overflow-hidden">
+
+            <!-- first card  -->
+            <div class="card col bg-light" id="leftcard">
+                <div class="card-header text-secondary text-opacity-75">
+                    <img src="images/Quotes1.png" alt="Quotes1"> Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <img src="images/quates2.png" alt="quates2" class="float-end"><br><br><br><br>
+                    <img src="images/Avatar8-2.png" alt="Avatar8-2"
+                        class="image-fluid card-img-overlay mx-auto my-auto">
+                </div>
+
+                <p class="fw-bold fs-5 text-center">
+                    Ellie James <br><span class="text-secondary fw-light fs-6">lorem.com</span></p>
+
+            </div>
+
+            <!-- second card  -->
+            <div class="card col bg-light" id="test2card">
+                <div class="card-header text-secondary text-opacity-75">
+                    <img src="images/Quotes1.png" alt="Quotes1"> Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <img src="images/quates2.png" alt="quates2" class="float-end"> <br><br><br><br>
+                    <img src="images/Avatar8-1.png" alt="Avatar8-1"
+                        class="image-fluid card-img-overlay mx-auto my-auto">
+                </div>
+                <p class="fw-bold fs-5 text-center">Johnny Doe <br><span
+                        class="text-secondary fw-light fs-6">ipsum.com</span></p>
+            </div>
+
+            <!-- third card  -->
+            <div class="card col bg-light" id="rightcard">
+                <div class="card-header text-secondary text-opacity-75">
+                    <img src="images/Quotes1.png" alt="Quotes1"> Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <img src="images/quates2.png" alt="quates2" class="float-end"> <br><br><br><br>
+                    <img src="images/Avatar8-3.png" alt="Avatar8-3"
+                        class="image-fluid card-img-overlay mx-auto my-auto">
+                </div>
+                <p class="fw-bold fs-5 text-center">Myne Barack <br><span
+                        class="text-secondary fw-light fs-6">ipsum.com</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- end 8th slide ..................................................................... -->
+
+    <!-- start 9th slide  -->
+    <div class="ninth position-relative">
+
+        <!-- instegram logo  -->
+        <div class="the9th img-overlay">
+        </div>
+
+        <!-- title  -->
+        <h2 class="fw-bold">See our Best Shots</h2>
+
+        <!-- caruosel  -->
+        <div class="row caruosel">
+            <div class="splide">
+                <div class="splide__track">
+
+                    <div class="splide__list">
+                        <div class="col-sm-4 splide__slide clickSliderimg">
+                            <div class="card">
+                                <img src="images/insta1.png" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <p><img src="images/Heart.png" alt="heart">412 <img src="images/Chat.png" alt="Chat"
+                                            class="ps-3">140</p>
+                                    <p>Lorem Ipsum Amet</p>
+                                    <p class="text-secondary">#music #concert #conference #london #event #artist #dj
+                                        #soundtrack #dance</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 splide__slide ms-2">
+                            <div class="card">
+                                <img src="images/insta2.png" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <p><img src="images/Heart.png" alt="heart">412 <img src="images/Chat.png" alt="Chat"
+                                            class="ps-3">140</p>
+                                    <p>Lorem Ipsum Amet</p>
+                                    <p class="text-secondary">#music #concert #conference #london #event #artist #dj
+                                        #soundtrack #dance</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 splide__slide ms-2">
+                            <div class="card">
+                                <img src="images/insta3.png" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <p><img src="images/Heart.png" alt="heart">412 <img src="images/Chat.png" alt="Chat"
+                                            class="ps-3">140</p>
+                                    <p>Lorem Ipsum Amet</p>
+                                    <p class="text-secondary">#music #concert #conference #london #event #artist #dj
+                                        #soundtrack #dance</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 splide__slide ms-2">
+                            <div class="card">
+                                <img src="images/insta4.png" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <p><img src="images/Heart.png" alt="heart">412 <img src="images/Chat.png" alt="Chat"
+                                            class="ps-3">140</p>
+                                    <p>Lorem Ipsum Amet</p>
+                                    <p class="text-secondary">#music #concert #conference #london #event #artist #dj
+                                        #soundtrack #dance</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 splide__slide ms-2 clickSliderimg">
+                            <div class="card">
+                                <img src="images/insta5.png" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <p><img src="images/Heart.png" alt="heart">412 <img src="images/Chat.png" alt="Chat"
+                                            class="ps-5">140 <br>
+                                        Lorem Ipsum Amet <br>
+                                        <span class="text-secondary">#music #concert #conference #london #event #artist
+                                            #dj #soundtrack #dance</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end carusel  -->
+    </div>
+    <!-- end 9th slide .................................................................................. -->
+
+    <!-- start tenth  -->
+    <div class="row tenth">
+        <!-- contact us>>>>> -->
+        <div class="contactUs col position-relative text-light text-left fw-bold">
+            <img src="images/Shape.png" alt="circles" class="position-absolute bottom-0 end-0">
+
+            <!-- title  -->
+            <h2 class="fw-bold">Contact us</h2>
+            <p>Have an inquiry? We'll be happy to assist you</p>
+            <br><br>
+
+            <!-- data>>> -->
+            <div class="d-flex flex-row gap-3 m-3 ps-5 data"><img src="images/Phone.png" alt="phoneIcon">
+                <h5>+92 333 6527366</h5>
+            </div><br>
+            <div class="d-flex flex-row gap-3 m-3 ps-5 data"><img src="images/Email.png" alt="mailIcon">
+                <h5>abuzer@greelogix.com</h5>
+            </div><br>
+            <div class="d-flex flex-row gap-3 m-3 ps-5 data"><img src="images/Map Pin.png" alt="mapIcon">
+                <h5>Plot 252, Block L Phase 2 Johar Town, Lahore, PK</h5>
+            </div>
+
+        </div>
+        <!-- form>>>>>>>> -->
+        <div class="col form position-relative">
+            <!-- form title  -->
+            <h2>Fill in your details</h2>
+            <br><br>
+            <!-- background shape  -->
+            <img src="images/Shape2.png" alt="shape2" class="position-absolute bottom-0 end-0 px-5">
+
+            <!-- form  -->
+
+
+            <!-- Alerts -->
+
+            <div id="successAlert" class="alert alert-success alert-dismissible fade show text-center" role="alert">
+                <strong>Congrats!</strong> Your request has been successfully submitted ;)
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div id="failAlert" class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+                <strong>Whoops!</strong> Something is wrong :/
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <!-- form data  -->
+            <form autocomplete="off" class="dataform">
+
+                <!-- name>>>>>>> -->
+                <div class="mb-4 dat">
+                    <label for="username" class="form-label mt-3 ">Name</label>
+                    <input type="text" class="form-control" id="username" placeholder="John Doe">
+                    <small id="usernamevalid" class="form-text text-danger invalid-feedback">Username must be 2-10
+                        characters long, and must start with a letter.</small>
+                </div>
+
+                <!-- email>>>> -->
+                <div class="mb-4 dat">
+                    <label for="email" class="form-label mt-3 ">Email</label>
+                    <input type="text" class="form-control" id="email" aria-describedby="emailHelp" autocomplete="off"
+                        placeholder="johndoe2347@mail.com">
+                    <div id="emailHelp" class="form-text"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                            id="lockSvg" fill="currentColor" class="bi bi-lock-fill me-1 mb-1" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                        </svg>We'll <span>never</span> share your email with anyone else.</div>
+                    <small id="emailvalid" class="form-text text-danger invalid-feedback">Email must be valid!</small>
+                </div>
+
+                <!-- message >>>> -->
+                <label for="textarea" class="form-label mt-3 text-primary">Message</label>
+                <div class="form-floating">
+                    <textarea class="form-control"
+                        placeholder="Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eg"
+                        id="floatingTextarea" style="height: 100px"></textarea>
+                </div>
+
+                <!-- submit button  -->
+                <button id="submit" type="submit" class="myBtn btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- end 10th ..................................................................................... -->
+
+    <!-- start footer  -->
+    <div class="bg-dark pt-3 footer">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="logo2"></a>
+            </div>
+        </nav>
+        <nav class="nav pb-5 pt-3 row">
+            <a class="nav-link text-light col" href="#">Home</a>
+            <a class="nav-link text-light col" href="#">Company</a>
+            <a class="nav-link text-light col" href="#">Blog</a>
+            <a class="nav-link text-light col" href="#">Contact us</a>
+            <a class="nav-link text-light col" href="#">sitemap</a>
+            <div class="icon col-6 g-2">
+                <img src="images/Facebook.png" alt="FacebookIcon">
+                <img src="images/Twitter.png" alt="TwitterIcon" class="px-3">
+                <img src="images/Linkedin.png" alt="LinkedinIcon">
+                <img src="images/Instagram.png" alt="InstagramIcon" class="ps-3">
+                <img src="images/musik.com, 2021.png" alt="label" class="ps-5">
+            </div>
+        </nav>
+    </div>
+    <!-- end footer  -->
+
+    <!-- java script links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="/path/to/cdn/bootstrap.bundle.min.js"></script>
+    <script src="js/final.project.js"></script>
+</body>
+
+</html>
